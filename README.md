@@ -24,7 +24,10 @@ This application requires multiple npm modules in order to run. Before use, the 
 
 In addition to the npm modules, the user will need to download and install MySQL and an API Development Program such as [Insomnia](https://insomnia.rest/) to access the API routes.
 
+In order for the server to connect to the database, a ```.env``` file must be configured. A ```.env.EXAMPLE``` file is included with the application. The ```DB_NAME``` is provided, but the user will need to populate the ```DB_USER``` and ```DB_PASSWORD``` fields with their own MySQL sign-in info.
+
 Before running the program, navigate to the root folder, initialize the MySQL Shell, and type the command ```SOURCE db/schema.sql``` in order to create the database required by the program.
+
 
 ## Usage
 
